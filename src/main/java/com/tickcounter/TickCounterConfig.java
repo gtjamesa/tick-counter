@@ -123,6 +123,6 @@ public interface TickCounterConfig extends Config
 	)
 	default int maxPlayers()
 	{
-		return 8;
+		return 0;
 	}
 }
